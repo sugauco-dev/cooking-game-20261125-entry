@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sizzle &amp; Serve — Bistro Rush</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2e2a26; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas {
+    display: block;
+    width: min(100vw, calc(100vh * 1.6));
+    height: auto;
+    image-rendering: auto;
+    background: #e8cfa8;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
